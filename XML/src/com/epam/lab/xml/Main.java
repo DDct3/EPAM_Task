@@ -36,8 +36,6 @@ public class Main {
         sax();
         dom();
         checkingXSD();
-        System.out.println("Tezt");
-
     }
 
     //Task 6 - 7
