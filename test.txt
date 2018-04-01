@@ -1,1 +1,2 @@
 Hello Git
+And I learning Github 
