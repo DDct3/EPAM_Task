@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="type.xsl"?>
+<knife>
+    <type name="Dagger">Dagger
+        <handy>One-handed</handy>
+        <origin>Germany</origin>
+        <visual>
+            <length>20</length>
+            <width>4</width>
+            <material>
+                <blade>Steel</blade>
+                <handles>Wood[oak]</handles>
+                <blood-flow>true</blood-flow>
+            </material>
+        </visual>
+        <value>false</value>
+    </type>
+    <type name="Knife">Knife
+        <handy>One-handed</handy>
+        <origin>England</origin>
+        <visual>
+            <length>10</length>
+            <width>40</width>
+            <material>
+                <blade>Steel</blade>
+                <handles>Plastic</handles>
+                <blood-flow>false</blood-flow>
+            </material>
+        </visual>
+        <value>false</value>
+    </type>
+    <type name="Sabre">Sabre
+        <handy>One-handed</handy>
+        <origin>American</origin>
+        <visual>
+            <length>50</length>
+            <width>30</width>
+            <material>
+                <blade>Steel</blade>
+                <handles>Steel</handles>
+                <blood-flow>true</blood-flow>
+            </material>
+        </visual>
+        <value>true</value>
+    </type>
+</knife>

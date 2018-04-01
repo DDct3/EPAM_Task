@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<knife>
+    <type>
+        <type>dagger</type>
+        <handy>double</handy>
+        <origin>english</origin>
+        <visual>
+            <length>33.0</length>
+            <material>
+                <blade>steel</blade>
+                <bloodFlow>false</bloodFlow>
+                <handles>steel</handles>
+            </material>
+            <width>52.0</width>
+        </visual>
+        <value>true</value>
+    </type>
+    <type>
+        <type>dagger</type>
+        <handy>double</handy>
+        <origin>america</origin>
+        <visual>
+            <length>33.0</length>
+            <material>
+                <blade>steel</blade>
+                <bloodFlow>false</bloodFlow>
+                <handles>steel</handles>
+            </material>
+            <width>52.0</width>
+        </visual>
+        <value>true</value>
+    </type>
+</knife>

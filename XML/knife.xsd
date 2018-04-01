@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="knife" type="knifeType"/>
+  <xs:complexType name="knifeType">
+    <xs:sequence>
+      <xs:element type="typeType" name="type" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="visualType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="length"/>
+      <xs:element type="xs:string" name="width"/>
+      <xs:element type="materialType" name="material"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="typeType" mixed="true">
+    <xs:sequence>
+      <xs:element type="xs:string" name="handy"/>
+      <xs:element type="xs:string" name="origin"/>
+      <xs:element type="visualType" name="visual"/>
+      <xs:element type="xs:string" name="value"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="name" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="materialType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="blade"/>
+      <xs:element type="xs:string" name="handles"/>
+      <xs:element type="xs:string" name="blood-flow"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
